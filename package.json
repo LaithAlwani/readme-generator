@@ -1,0 +1,26 @@
+{
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "description": "Generates a README file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LaithAlwani/readme-generator.git"
+  },
+  "author": "Laith Alwani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LaithAlwani/readme-generator/issues"
+  },
+  "homepage": "https://github.com/LaithAlwani/readme-generator#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
