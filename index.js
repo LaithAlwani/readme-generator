@@ -28,6 +28,11 @@ inquirer.prompt([
         name:'contribution'
     },
     {
+        type: 'input',
+        message: 'Please enter test instructions',
+        name:'test'
+    },
+    {
         type: 'list',
         message: 'Please choose a license for the project',
         choices: ['MIT', 'lis1','lis2','lis3'],
@@ -39,14 +44,41 @@ inquirer.prompt([
         name:'github'
     },
     {
-        type: 'input',
+        type: 'email',
         message: 'Please enter an email address',
         name:'email'
     },
 ]).then(response =>{
     console.log(response);
-    
-})
+    fs.writeFileSync('README.md',
+`# ${response.title}               ${response.license}
+## Table of Content:
+
+-------------------------------------------------
+Description:
+${response.description}
+-------------------------------------------------
+##Installation Instructions:
+${response.installation}
+-------------------------------------------------
+##Usage Information:
+${response.usage}
+-------------------------------------------------
+##Contribution Guidelines:
+${response.contribution}
+------------------------------------------------
+##Test Instructions:
+${response.test}
+------------------------------------------------
+##Questions:
+[${response.github}]https://github.com/${response.github}
+${response.email}
+------------------------------------------------`
+
+    , err=>{
+        err ? console.log(err):"saved";
+    });
+});
 
 
 // GIVEN a command-line application that accepts user input
