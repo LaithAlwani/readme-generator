@@ -53,6 +53,12 @@ inquirer.prompt([
     fs.writeFileSync('README.md',
 `# ${response.title}               ${response.license}
 ## Table of Content:
+1.[Description](#Description)
+2.[Installation Instructions](#Installation-Instructions)
+3.[Usage Information](#Usage-Information)
+4.[Contribution Guidelines](#Contribution-Guidelines)
+5.[Test Instructions:](#Test-Instructions)
+6.[Questions](#Questions)
 
 -------------------------------------------------
 Description:
