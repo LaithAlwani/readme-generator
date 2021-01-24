@@ -35,7 +35,10 @@ inquirer.prompt([
     {
         type: 'list',
         message: 'Please choose a license for the project',
-        choices: ['MIT', 'lis1','lis2','lis3'],
+        choices: ['Apache License 2.0','GNU General Public License','MIT License', 'BSD 2-clause Simplified license',
+                'BSD 3-clause Revised license', 'Boost Software License', 'Creative Commons Zero v1.0 Universal', 
+                'Eclipse Public License - v 2.0', 'GNU Affero General Public License v3.0','GNU General Public License v2.0', 
+                'GNU Lesser General Public License v2.1', 'Mozilla Public License Version 2.0', 'Unlicensen'],
         name:'license'
     },
     {
@@ -51,7 +54,7 @@ inquirer.prompt([
 ]).then(response =>{
     console.log(response);
     fs.writeFileSync('README.md',
-`# ${response.title}               ${response.license}
+`# ${response.title}                [![License: ${response.license}](https://img.shields.io/badge/License-${response.license}-yellow.svg)](https://opensource.org/licenses/${response.license})
 ## Table of Content:
 1.[Description](#Description)
 2.[Installation Instructions](#Installation-Instructions)
@@ -60,26 +63,27 @@ inquirer.prompt([
 5.[Test Instructions:](#Test-Instructions)
 6.[Questions](#Questions)
 
--------------------------------------------------
-Description:
-${response.description}
--------------------------------------------------
-##Installation Instructions:
-${response.installation}
--------------------------------------------------
-##Usage Information:
-${response.usage}
--------------------------------------------------
-##Contribution Guidelines:
-${response.contribution}
-------------------------------------------------
-##Test Instructions:
-${response.test}
-------------------------------------------------
-##Questions:
-[${response.github}]https://github.com/${response.github}
-${response.email}
-------------------------------------------------`
+## Description:
+    ${response.description}
+
+## Installation Instructions:
+    ${response.installation}
+
+## Usage Information:
+    ${response.usage}
+
+## Contribution Guidelines:
+    ${response.contribution}
+
+## License:
+    This application is covered under the ${response.license} license.    
+
+## Test Instructions:
+    ${response.test}
+
+## Questions:
+    [${response.github}]https://github.com/${response.github}
+        ${response.email}`
 
     , err=>{
         err ? console.log(err):"saved";
