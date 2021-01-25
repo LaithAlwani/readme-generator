@@ -41,4 +41,4 @@ Github: [laithalwani](https://github.com/laithalwani)
 laithalwani@gmail.com
 
 ## Demo:
- video link
+ [Application Demo](https://youtu.be/V3al2O06yy4)
