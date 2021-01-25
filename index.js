@@ -62,12 +62,12 @@ inquirer.prompt([
     ${response.description}
 
 ## Table of Content:
-1.[Description](#Description)
-2.[Installation Instructions](#Installation-Instructions)
-3.[Usage Information](#Usage-Information)
-4.[Contribution Guidelines](#Contribution-Guidelines)
-5.[Test Instructions:](#Test-Instructions)
-6.[Questions](#Questions)
+1.[Description](#Description)\n
+2.[Installation Instructions](#Installation-Instructions)\n
+3.[Usage Information](#Usage-Information)\n
+4.[Contribution Guidelines](#Contribution-Guidelines)\n
+5.[Test Instructions:](#Test-Instructions)\n
+6.[Questions](#Questions)\n
 
 ## Installation Instructions:
     ${response.installation}
