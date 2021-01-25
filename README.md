@@ -15,6 +15,8 @@
 
 6.[Questions](#Questions)
 
+7.[Demo](#Demo)
+
 ## Description:
     Generates a professional readme file in markdown format
 
