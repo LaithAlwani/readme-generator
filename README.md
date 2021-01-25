@@ -35,5 +35,6 @@
     please make sure all commits are tested and work properly prior to making commits.
 
 ## Questions:
-    Github: [laithalwani](https://github.com/laithalwani)
-    laithalwani@gmail.com
+Github: [laithalwani](https://github.com/laithalwani)
+
+laithalwani@gmail.com
