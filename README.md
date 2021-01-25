@@ -1,4 +1,4 @@
-# Readme file Generator 
+# ReadMe File Generator 
 
 ### MIT License 
 
@@ -15,23 +15,24 @@
 
 6.[Questions](#Questions)
 
+
 ## Description:
-    generates a markdown readme file.
+    Generates a professional readme file in markdown format
 
 ## Installation Instructions:
-    run "npm i" to install all dependencies 
+    run"npm i" to install all dependecies prior to running the applicaiton
 
 ## Usage Information:
-    run "node index.js" and answer all the questions to generate the file. 
+    install all dependencies then run "node index.js" and answer all the questions
 
 ## Contribution Guidelines:
-    make commits and creat a pull request, it will be reviewd and then approved to rejected.
+    please make a pull request
 
 ## License:
-    This application is covered under the MIT License license.    
+    This application is covered under the MIT License.    
 
 ## Test Instructions:
-    please make sure all commits are tested and work properly prior to making commits.
+    make sure that all commits are tested prior to commting
 
 ## Questions:
 Github: [laithalwani](https://github.com/laithalwani)
