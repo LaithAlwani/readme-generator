@@ -2,9 +2,6 @@
 
 ### MIT License 
 
-## Description:
-    generates a markdown readme file.
-
 ## Table of Content:
 1.[Description](#Description)
 
@@ -18,6 +15,8 @@
 
 6.[Questions](#Questions)
 
+## Description:
+    generates a markdown readme file.
 
 ## Installation Instructions:
     run "npm i" to install all dependencies 
