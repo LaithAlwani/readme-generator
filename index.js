@@ -54,7 +54,13 @@ inquirer.prompt([
 ]).then(response =>{
     console.log(response);
     fs.writeFileSync('README.md',
-`# ${response.title}                [![License: ${response.license}](https://img.shields.io/badge/License-${response.license}-yellow.svg)](https://opensource.org/licenses/${response.license})
+`# ${response.title} 
+
+### ${response.license} 
+
+## Description:
+    ${response.description}
+
 ## Table of Content:
 1.[Description](#Description)
 2.[Installation Instructions](#Installation-Instructions)
@@ -62,9 +68,6 @@ inquirer.prompt([
 4.[Contribution Guidelines](#Contribution-Guidelines)
 5.[Test Instructions:](#Test-Instructions)
 6.[Questions](#Questions)
-
-## Description:
-    ${response.description}
 
 ## Installation Instructions:
     ${response.installation}
@@ -82,8 +85,8 @@ inquirer.prompt([
     ${response.test}
 
 ## Questions:
-    [${response.github}]https://github.com/${response.github}
-        ${response.email}`
+    Github: [${response.github}](https://github.com/${response.github})
+    ${response.email}`
 
     , err=>{
         err ? console.log(err):"saved";
