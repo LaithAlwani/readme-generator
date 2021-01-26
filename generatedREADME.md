@@ -1,4 +1,4 @@
-# Project A           [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
+# Project A           [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause) 
 
 ## Table of Content:
 1.[Description](#Description)
@@ -17,22 +17,22 @@
 
 
 ## Description:
-it does something
+This project does this and that
 
 ## Installation Instructions:
-run "npm i" to install dependencies
+use "npm i" to install dependencies
 
 ## Usage Information:
-run "node index.js"
+run "node index.js" to invoke the application
 
 ## Contribution Guidelines:
-how to contribute to the app
+creat a pull request
 
 ## License:
-This application is covered under the [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT).    
+This application is covered under the [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause).    
 
 ## Test Instructions:
-how testing should be done
+make sure all commits work prior to commiting
 
 ## Questions:
 Github: [laithalwani](https://github.com/laithalwani)
