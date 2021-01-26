@@ -15,22 +15,22 @@
 
 
 ## Description:
-    what the project does.
+what the project does.
 
 ## Installation Instructions:
-    how it should be installed to function properly
+how it should be installed to function properly
 
 ## Usage Information:
-    how it is used
+how it is used
 
 ## Contribution Guidelines:
-    how to make contributions explantion
+how to make contributions explantion
 
 ## License:
-    This application is covered under the [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT).    
+This application is covered under the [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT).    
 
 ## Test Instructions:
-    how is testing done.
+how is testing done.
 
 ## Questions:
 Github: [laithalwani](https://github.com/laithalwani)
