@@ -27,10 +27,11 @@ to start the application use "node index.js" to invoke the application, answer t
 
 ## Questions:
 Github: [laithalwani](https://github.com/laithalwani)
+
 email: laithalwani@gmail.com
 
 ## Demo:
 [Demo video](https://youtu.be/aN94D1-CO8s)
 
 ## License:
-This application is covered under the [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT).
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT).
