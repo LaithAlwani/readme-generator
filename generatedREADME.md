@@ -1,4 +1,4 @@
-# Project Name           [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
+# Project A           [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
 ## Table of Content:
 1.[Description](#Description)
@@ -9,28 +9,30 @@
 
 4.[Contribution Guidelines](#Contribution-Guidelines)
 
-5.[Test Instructions:](#Test-Instructions)
+5.[License](#License)
 
-6.[Questions](#Questions)
+6.[Test Instructions](#Test-Instructions)
+
+7.[Questions](#Questions)
 
 
 ## Description:
-what the project does.
+it does something
 
 ## Installation Instructions:
-how it should be installed to function properly
+run "npm i" to install dependencies
 
 ## Usage Information:
-how it is used
+run "node index.js"
 
 ## Contribution Guidelines:
-how to make contributions explantion
+how to contribute to the app
 
 ## License:
 This application is covered under the [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT).    
 
 ## Test Instructions:
-how is testing done.
+how testing should be done
 
 ## Questions:
 Github: [laithalwani](https://github.com/laithalwani)

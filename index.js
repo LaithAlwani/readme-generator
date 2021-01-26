@@ -86,8 +86,9 @@ inquirer.prompt([
 2.[Installation Instructions](#Installation-Instructions)\n
 3.[Usage Information](#Usage-Information)\n
 4.[Contribution Guidelines](#Contribution-Guidelines)\n
-5.[Test Instructions:](#Test-Instructions)\n
-6.[Questions](#Questions)\n
+5.[License](#License)\n
+6.[Test Instructions](#Test-Instructions)\n
+7.[Questions](#Questions)\n
 
 ## Description:
 ${response.description}
