@@ -90,22 +90,22 @@ inquirer.prompt([
 6.[Questions](#Questions)\n
 
 ## Description:
-    ${response.description}
+${response.description}
 
 ## Installation Instructions:
-    ${response.installation}
+${response.installation}
 
 ## Usage Information:
-    ${response.usage}
+${response.usage}
 
 ## Contribution Guidelines:
-    ${response.contribution}
+${response.contribution}
 
 ## License:
-    This application is covered under the ${response.license}.    
+This application is covered under the ${response.license}.    
 
 ## Test Instructions:
-    ${response.test}
+${response.test}
 
 ## Questions:
 Github: [${response.github}](https://github.com/${response.github})\n
