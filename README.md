@@ -33,4 +33,4 @@ email: laithalwani@gmail.com
 [Demo video](https://youtu.be/V3al2O06yy4)
 
 ## License:
-This application is covered under the [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT).
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT).
