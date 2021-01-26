@@ -36,11 +36,36 @@ inquirer.prompt([
     {
         type: 'list',
         message: 'Please choose a license for the project',
-        choices: ['Apache License 2.0','GNU General Public License','MIT License', 'BSD 2-clause Simplified license',
-                'BSD 3-clause Revised license', 'Boost Software License', 'Creative Commons Zero v1.0 Universal', 
-                'Eclipse Public License - v 2.0', 'GNU Affero General Public License v3.0','GNU General Public License v2.0', 
-                'GNU Lesser General Public License v2.1', 'Mozilla Public License Version 2.0', 'Unlicensen'],
-        name:'license'
+        name:'license',
+        choices: [
+            {
+                name:'MIT License',
+                value:'[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)'
+                
+            },
+            {
+                name:'Apache License 2.0',
+                value:'[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)'
+                
+            },
+            {
+                name:'GNU General Public License v3.0',
+                value:'[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)'
+            },
+            
+            {
+                name:'GNU Affero General Public License v2.0',
+                value:'[![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)'
+            },
+            {
+                name:'BSD 3-clause Revised license',
+                value:'[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)'
+            },
+            {
+                name:'Mozilla Public License 2.0',
+                value:'[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)'
+            }
+        ]
     },
     {
         type: 'input',
@@ -53,10 +78,8 @@ inquirer.prompt([
         name:'email'
     },
 ]).then(response =>{
-    fs.writeFileSync('README.md',  //writing to readme file
-`# ${response.title} 
-
-### ${response.license} 
+    fs.writeFileSync('generatedREADME.md',  //writing to readme file
+`# ${response.title}           ${response.license} 
 
 ## Table of Content:
 1.[Description](#Description)\n

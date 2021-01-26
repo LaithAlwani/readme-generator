@@ -1,4 +1,4 @@
-#  README Generator  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
+# Project Name           [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
 ## Table of Content:
 1.[Description](#Description)
@@ -13,30 +13,26 @@
 
 6.[Questions](#Questions)
 
-7.[Demo](#Demo)
-
 
 ## Description:
-    
+    what the project does.
 
 ## Installation Instructions:
-    
+    how it should be installed to function properly
 
 ## Usage Information:
-    
+    how it is used
 
 ## Contribution Guidelines:
-    
+    how to make contributions explantion
 
 ## License:
     This application is covered under the [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT).    
 
 ## Test Instructions:
-    
+    how is testing done.
 
 ## Questions:
 Github: [laithalwani](https://github.com/laithalwani)
-email: laithalwani@gmail.com
 
-
-## Demo:
+laithalwani@gmail.com
